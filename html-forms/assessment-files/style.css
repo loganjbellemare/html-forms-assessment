@@ -10,6 +10,8 @@ form {
 }
 form fieldset label {
     display: flex;
+    margin-top: 0;
+    padding-top: 0;
 }
 form fieldset input {
     display: flex;
@@ -17,9 +19,14 @@ form fieldset input {
     margin-left: 0;
     padding-left: 0;
     margin-right: 20px;
+    margin-bottom: 15px;
+}
+form fieldset input#email {
+    margin-bottom: 0;
 }
 form div label {
     display: flex;
+    margin-top: 15px;
 }
 form div textarea {
     display: flex;
