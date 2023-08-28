@@ -1,0 +1,40 @@
+body {
+    padding: 10px;
+}
+input {
+    margin: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form fieldset label {
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+}
+form fieldset input {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+form fieldset input#email {
+    margin-bottom: 0;
+}
+form div label {
+    display: flex;
+    margin-top: 15px;
+}
+form div textarea {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+form button {
+    margin-top: 1em;
+    width: min-content;
+}
