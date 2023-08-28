@@ -1,0 +1,33 @@
+body {
+    padding: 10px;
+}
+input {
+    margin: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form fieldset label {
+    display: flex;
+}
+form fieldset input {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 20px;
+}
+form div label {
+    display: flex;
+}
+form div textarea {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+form button {
+    margin-top: 1em;
+    width: min-content;
+}
